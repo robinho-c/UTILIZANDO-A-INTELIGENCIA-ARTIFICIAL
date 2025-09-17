@@ -1,4 +1,3 @@
-
 const caixaPrincipal = document.querySelector(".caixa-principal");
 const caixaPerguntas = document.querySelector(".caixa-perguntas");
 const caixaAlternativas = document.querySelector(".caixa-alternativas");
@@ -76,11 +75,17 @@ const perguntas = [
 
 let atual = 0;
 let perguntaAtual;
-let historiaFinal = "";
+let historiaFinal = " ";
 
 function mostraPergunta(){
+    if (atual >= perguntas.length){
+        mostraResultado();
+        return;
+    }
+
     perguntaAtual = perguntas[atual];
     caixaPerguntas.textContent = perguntaAtual.enunciado;
+    caixaAlternativas.textContent = "";
     mostraAlternativas();
 }
 
@@ -93,18 +98,18 @@ function mostraAlternativas(){
    }
 
 }
-
-function respostaSelecionada(opcaoSelecionada) {
+function respostaSelecionada(opcaoSelecionada){
     const afirmacoes = opcaoSelecionada.afirmacao;
-    historiaFinal+= afirmacoes+"" ;
+    historiaFinal += afirmacoes +"" ;
     atual++;
     mostraPergunta();
-}
 
-function motraResultado(){
-    caixaPerguntas.textContent = "em 2049...";
+}
+function mostraResultado(){
+    caixaPerguntas.textContent = "Em 2049...";
     textoResultado.textContent = historiaFinal;
     caixaAlternativas.textContent = "";
+
 }
 
 mostraPergunta();
