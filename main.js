@@ -10,7 +10,7 @@ const perguntas = [
         alternativas: [
             {
                 texto: "Em 1916!",
-                afirmacao: "A primeira edição da copa américa aconteceu no seculo passado no ano de 1916. "
+                afirmacao: "A primeira edição da copa américa aconteceu no século passado no ano de 1916. "
             },
             {
                 texto: "Em 1816!",
@@ -23,7 +23,7 @@ const perguntas = [
         alternativas: [
             {
                 texto: "Uruguai.",
-                afirmacao: "com a seleção uruguaia sendo a primeira campeã."
+                afirmacao: "Com a seleção uruguaia sendo a primeira campeã."
             },
             {
                 texto: "Brasil.",
@@ -36,7 +36,7 @@ const perguntas = [
         alternativas: [
             {
                 texto: "Argentina.",
-                afirmacao: "com 16 titulos a argentina é a maior campẽa da competição."
+                afirmacao: " Já a argentina é a maior campẽa da competição com 16 titulos."
             },
             {
                 texto: "Colombia.",
@@ -48,8 +48,8 @@ const perguntas = [
         enunciado: "quantas copas américas tem a seleção brasileira?",
         alternativas: [
             {
-                texto: "oito vezes.",
-                afirmacao: "Ja a seleção brasileira possui 8 copas conquistadas."
+                texto: "nove vezes.",
+                afirmacao: " A seleção brasileira possui 9 copas america com a primeira conquistada no ano de 1919 e a ultima em 2019 contra a seleção do Peru."
             },
             {
                 texto: "onze vezes.",
@@ -62,7 +62,7 @@ const perguntas = [
         alternativas: [
             {
                 texto: "Rivaldo.",
-                afirmacao: "Infelizmente passou a utilizar a IA para fazer todas suas tarefas e agora se sente dependente da IA para tudo."
+                afirmacao: " Sendo asim a terceira maior campeãda da competição, atras somente da Argentina e do Uruguai."
             },
             {
                 texto: "Neymar.",
