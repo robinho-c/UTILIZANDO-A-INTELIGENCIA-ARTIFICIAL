@@ -6,63 +6,63 @@ const textoResultado = document.querySelector(".texto-resultado");
 
 const perguntas = [
     {
-        enunciado: "em que ano aconteceu a primeira edição da copa américa?",
+        enunciado: "a primeira edição da copa América",
         alternativas: [
             {
-                texto: "Em 1916!",
-                afirmacao: "A primeira edição da copa américa aconteceu no século passado no ano de 1916. "
+                texto: "aconteceu em 1916!",
+                afirmacao: ". "
             },
             {
-                texto: "Em 1816!",
+                texto: "aconteceu no ano de 1918!",
                 afirmacao: "Quis saber como usar IA no seu dia a dia."
             }
         ]
     },
     {
-        enunciado: "quem foi o primeiro campeão da copa américa?",
+        enunciado: "tendo como a primeira campeã do campeonato",
         alternativas: [
             {
-                texto: "Uruguai.",
-                afirmacao: "Com a seleção uruguaia sendo a primeira campeã."
+                texto: "a seleção uruguaia.",
+                afirmacao: "."
             },
             {
-                texto: "Brasil.",
+                texto: "a seleção brasileira.",
                 afirmacao: "Sentiu mais facilidade em utilizar seus próprios recursos para escrever seu trabalho."
             }
         ]
     },
     {
-        enunciado: "quem é o maior campeão da copa américa?",
+        enunciado: "em cima da forte equipe da Argentina que atualmente é ",
         alternativas: [
             {
-                texto: "Argentina.",
+                texto: "a maior campeã .",
                 afirmacao: " Já a argentina é a maior campẽa da competição com 16 titulos."
             },
             {
-                texto: "Colombia.",
+                texto: "a menor campeã.",
                 afirmacao: "Sua preocupação com as pessoas motivou a criar um grupo de estudos entre trabalhadores para discutir meios de utilização de IA de forma ética."
             }
         ]
     },
     {
-        enunciado: "quantas copas américas tem a seleção brasileira?",
+        enunciado: " A seleção brasileira possui 9 copas",
         alternativas: [
             {
-                texto: "nove vezes.",
-                afirmacao: " A seleção brasileira possui 9 copas america com a primeira conquistada no ano de 1919 e a ultima em 2019 contra a seleção do Peru."
+                texto: "sendo a terceira maior campeã, atrás apenas da Argentina e Uruguai.",
+                afirmacao: " tendo a primeira copa conquistada no ano de 1919 e a ultima em 2019"
             },
             {
-                texto: "onze vezes.",
+                texto: " contra a seleção do Peru.",
                 afirmacao: "Acelerou o processo de criação de trabalhos utilizando geradores de imagem e agora consegue ensinar pessoas que sentem dificuldades em desenhar manualmente como utilizar também!"
             }
         ]
     },
     {
-        enunciado: "Quem era o camisa 10 da seleção brasileira na primeira copa américa conquistada? ",
+        enunciado: "com o seu camisa 10 da primeira edição chamado",
         alternativas: [
             {
                 texto: "Rivaldo.",
-                afirmacao: " Sendo asim a terceira maior campeãda da competição, atras somente da Argentina e do Uruguai."
+                afirmacao: " "
             },
             {
                 texto: "Neymar.",
